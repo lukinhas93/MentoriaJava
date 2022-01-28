@@ -6,9 +6,6 @@ public class OperadorDeCaixa extends FuncionarioCLT{
         super(nome, documento, endereco, valorSalario);
     }
 
-    public OperadorDeCaixa() {
-    }
-
     @Override
     public String toString() {
         return "OperadorDeCaixa{" +

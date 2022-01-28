@@ -9,10 +9,10 @@ public abstract class FuncionarioCLT {
 
     protected Double valorSalario;
 
-    public FuncionarioCLT(String nome, String documento, me.dio.Endereco endereco, Double valorSalario) {
+    public FuncionarioCLT(String nome, String documento, Endereco endereco, Double valorSalario) {
         this.nome = nome;
         this.documento = documento;
-        Endereco = endereco;
+        this.Endereco = endereco;
         this.valorSalario = valorSalario;
     }
 

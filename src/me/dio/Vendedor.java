@@ -5,10 +5,8 @@ public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
 
    private Double valorBonificacao;
 
-    public Vendedor() {
-    }
 
-    public Vendedor(String nome, String documento, Endereco endereco, Double valorSalario, Double valorBonificacao) {
+    public Vendedor(String nome, String documento, Endereco endereco, Double valorSalario) {
         super(nome, documento, endereco, valorSalario);
         this.valorBonificacao = valorBonificacao;
     }

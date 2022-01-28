@@ -6,7 +6,10 @@ public class Endereco {
     private String complemento;
     private String bairro;
 
-    public Endereco(rua rua1, complemento s, bairro s1) {
+    public Endereco(String rua, String complemento, String bairro) {
+        this.rua = rua;
+        this.complemento = complemento;
+        this.bairro = bairro;
     }
 
     public String getRua() {

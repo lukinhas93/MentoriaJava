@@ -13,16 +13,17 @@ public class Gerente implements CalculaBonificacao {
     public Gerente() {
     }
 
-    public Gerente(String nome, String documento, me.dio.Endereco endereco, Double valorHora) {
+    public Gerente(String nome, String documento, Endereco endereco, Integer horasTrabalhadas, Double valorHora) {
         this.nome = nome;
         this.documento = documento;
-        Endereco = endereco;
+        this.Endereco = endereco;
+        this.horasTrabalhadas = horasTrabalhadas;
         this.valorHora = valorHora;
     }
 
     @Override
     public void calcularBonificacao (Double porcentagemBonificacao) {
-        this.valorBonificacao = this.valorRemuneracao * this.porcentagemBonificaçao;
+        this.valorBonificacao = this.valorRemuneracao * porcentagemBonificacao;
     }
 
     public String getNome() {
@@ -82,7 +83,7 @@ public class Gerente implements CalculaBonificacao {
     }
 
     public void calcularRemuneracao() {
-        this.valorRemuneracao = this.horasTrabalhadas * this.horasTrabalhadas
+        this.valorRemuneracao = this.horasTrabalhadas * this.valorHora;
     }
 
     @Override
@@ -98,3 +99,4 @@ public class Gerente implements CalculaBonificacao {
                 '}';
     }
 }
+
