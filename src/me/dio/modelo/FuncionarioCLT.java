@@ -1,4 +1,4 @@
-package me.dio;
+package me.dio.modelo;
 
 public abstract class FuncionarioCLT {
 
@@ -32,11 +32,11 @@ public abstract class FuncionarioCLT {
         this.documento = documento;
     }
 
-    public me.dio.Endereco getEndereco() {
+    public me.dio.modelo.Endereco getEndereco() {
         return Endereco;
     }
 
-    public void setEndereco(me.dio.Endereco endereco) {
+    public void setEndereco(me.dio.modelo.Endereco endereco) {
         Endereco = endereco;
     }
 

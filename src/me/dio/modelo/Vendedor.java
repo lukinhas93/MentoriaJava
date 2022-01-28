@@ -1,4 +1,4 @@
-package me.dio;
+package me.dio.modelo;
 
 public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
 
@@ -6,7 +6,7 @@ public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
    private Double valorBonificacao;
 
 
-    public Vendedor(String nome, String documento, Endereco endereco, Double valorSalario) {
+    public Vendedor(String nome, String documento, me.dio.modelo.Endereco endereco, Double valorSalario) {
         super(nome, documento, endereco, valorSalario);
         this.valorBonificacao = valorBonificacao;
     }

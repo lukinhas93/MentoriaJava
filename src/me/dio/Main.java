@@ -1,5 +1,10 @@
 package me.dio;
 
+import me.dio.modelo.Vendedor;
+import me.dio.modelo.Endereco;
+import me.dio.modelo.Gerente;
+import me.dio.modelo.OperadorDeCaixa;
+
 public class Main {
     public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package me.dio;
+package me.dio.modelo;
 
-public class OperadorDeCaixa extends FuncionarioCLT{
+public class OperadorDeCaixa extends FuncionarioCLT {
 
-    public OperadorDeCaixa(String nome, String documento, me.dio.Endereco endereco, Double valorSalario) {
+    public OperadorDeCaixa(String nome, String documento, me.dio.modelo.Endereco endereco, Double valorSalario) {
         super(nome, documento, endereco, valorSalario);
     }
 

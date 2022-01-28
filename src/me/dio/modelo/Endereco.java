@@ -1,4 +1,4 @@
-package me.dio;
+package me.dio.modelo;
 
 public class Endereco {
 
